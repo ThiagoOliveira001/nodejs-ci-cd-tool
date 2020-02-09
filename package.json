@@ -4,7 +4,7 @@
   "description": "Projeto para implementação de CI/CD",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "env NODE_ENV=test jest"
   },
   "repository": {
     "type": "git",
