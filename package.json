@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-ci-cd-tool",
+  "version": "1.0.0",
+  "description": "Projeto para implementação de CI/CD",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoOliveira001/nodejs-ci-cd-tool.git"
+  },
+  "keywords": [
+    "CI",
+    "CD",
+    "continuous",
+    "integration",
+    "deployment"
+  ],
+  "author": "Thiago Silva de Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoOliveira001/nodejs-ci-cd-tool/issues"
+  },
+  "homepage": "https://github.com/ThiagoOliveira001/nodejs-ci-cd-tool#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  }
+}
